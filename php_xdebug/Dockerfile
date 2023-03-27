@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:8-apache
 
 # allow rewrite rules
 RUN a2enmod rewrite vhost_alias
